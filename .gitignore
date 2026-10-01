@@ -1,0 +1,47 @@
+# Android Studio
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android
+local.properties
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+.kotlin/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Secrets / credentials
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+.env
+.env.*
+
+# Local AI models
+models/
+*.gguf
+*.bin
+*.safetensors
+*.onnx
+
+# Generated files
+*.hprof
+
+# Local AI models
+app/src/main/assets/*.litertlm
